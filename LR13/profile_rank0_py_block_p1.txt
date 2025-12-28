@@ -1,0 +1,23 @@
+         5141 function calls in 2.510 seconds
+
+   Ordered by: cumulative time
+   List reduced from 30 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    2.510    2.510 F:\pythonProject5\LR13\lr13_heat2d_profile_opt.py:88(solve)
+      500    2.502    0.005    2.503    0.005 F:\pythonProject5\LR13\lr13_heat2d_profile_opt.py:30(step_py)
+     2601    0.005    0.000    0.005    0.000 F:\pythonProject5\LR13\lr13_heat2d_profile_opt.py:21(u_init)
+        1    0.000    0.000    0.000    0.000 F:\pythonProject5\LR13\lr13_heat2d_profile_opt.py:12(counts_displs)
+        1    0.000    0.000    0.000    0.000 F:\pythonProject5\venv\lib\site-packages\numpy\_core\fromnumeric.py:2338(sum)
+      501    0.000    0.000    0.000    0.000 F:\pythonProject5\LR13\lr13_heat2d_profile_opt.py:24(u_left)
+        1    0.000    0.000    0.000    0.000 F:\pythonProject5\venv\lib\site-packages\numpy\_core\fromnumeric.py:69(_wrapreduction)
+      501    0.000    0.000    0.000    0.000 F:\pythonProject5\LR13\lr13_heat2d_profile_opt.py:25(u_right)
+      501    0.000    0.000    0.000    0.000 F:\pythonProject5\LR13\lr13_heat2d_profile_opt.py:27(u_top)
+      501    0.000    0.000    0.000    0.000 F:\pythonProject5\LR13\lr13_heat2d_profile_opt.py:26(u_bottom)
+        1    0.000    0.000    0.000    0.000 F:\pythonProject5\venv\lib\site-packages\numpy\_core\fromnumeric.py:2879(cumsum)
+        1    0.000    0.000    0.000    0.000 F:\pythonProject5\venv\lib\site-packages\numpy\_core\fromnumeric.py:51(_wrapfunc)
+        1    0.000    0.000    0.000    0.000 {method 'cumsum' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+
+
